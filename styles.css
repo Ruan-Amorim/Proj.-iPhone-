@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+    
+    
+}
+body{
+    background-image: url('Background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left top;
+    background-color: bisque;
+    
+}
+main{display: flex;margin: 20px;margin-top: 50px;}
+iframe{
+margin-left: 7px;
+    width: 252px;
+    height: 515px;
+    margin-top: 30px;
+    border-radius: 25px;
+    border: 1px solid #575757e6;
+    
+}
+
+#tela{
+    width: 440px;
+    height: 700px;
+    background-image: url('galaxy-s8-s8.png');
+    background-repeat: no-repeat;
+    background-position: left top;
+    
+    
+    
+}
+#tela{margin: auto; display: flex;
+    top: 50%;
+    left: 50%;
+}
+#apps{
+   
+    text-align: right;
+}
+#apps img{
+    position: relative;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px #1d1b1de6;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+/*box-sizing: border-box; essa tag diz que a borda faz parte de img, fazendo com que não mecha os outros imgs no :hover*/
+    
+}
+#apps img:hover{
+    border: 2px solid #4e2cb0e6;
+    transform: translate(-5px, -5px);
+    transition-duration: .5s;
+    box-shadow: 8px 8px 10px #1d1b1de6;
+    
+}
